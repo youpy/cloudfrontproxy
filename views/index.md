@@ -1,6 +1,6 @@
 # CloudFront Proxy
 
-Use Amazon CloudFront as a caching proxy
+Use [Amazon CloudFront](http://aws.amazon.com/cloudfront/) as a caching proxy
 
 [github](https://github.com/youpy/cloudfrontproxy)
 
