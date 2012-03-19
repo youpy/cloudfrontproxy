@@ -2,6 +2,8 @@
 
 Use Amazon CloudFront as a caching proxy
 
+[github](https://github.com/youpy/cloudfrontproxy)
+
 ![overview](http://dl.dropbox.com/u/334064/cloudfrontproxy.png)
 
 ## Usage
