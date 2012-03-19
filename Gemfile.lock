@@ -11,6 +11,7 @@ GEM
       rack
     rack-test (0.6.1)
       rack (>= 1.0)
+    redcarpet (2.1.1)
     rspec (2.7.0)
       rspec-core (~> 2.7.0)
       rspec-expectations (~> 2.7.0)
@@ -35,6 +36,7 @@ DEPENDENCIES
   builder
   haml
   rack-test
+  redcarpet
   rspec
   sinatra
   webmock

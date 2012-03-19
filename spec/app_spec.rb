@@ -28,10 +28,10 @@ describe 'App' do
     end
 
     context 'url is not given' do
-      it 'should respond with 404' do
+      it 'should respond with index' do
         get '/'
 
-        last_response.status.should eql(404)
+        last_response.status.should eql(200)
       end
     end
   end
