@@ -1,5 +1,8 @@
-set :root, File.dirname(__FILE__)
+require 'open-uri'
 
-get '/' do
-  haml :index
+get '/:url' do
+  open(params[:url]) do |f|
+    content_type f.content_type
+    f.read
+  end
 end

@@ -1,5 +1,6 @@
 require 'bundler'
 require 'rack/test'
+require 'webmock/rspec'
 
 Bundler.require(:default, :test)
 
@@ -13,5 +14,6 @@ RSpec.configure do |config|
   end
 
   config.before(:each) do
+    WebMock.reset!
   end
 end
