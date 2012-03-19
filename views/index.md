@@ -4,7 +4,7 @@ Use [Amazon CloudFront](http://aws.amazon.com/cloudfront/) as a caching proxy
 
 [github](https://github.com/youpy/cloudfrontproxy)
 
-![overview](http://dl.dropbox.com/u/334064/cloudfrontproxy.png)
+![overview](http://d20tgthml5p1qx.cloudfront.net/http%3A%2F%2Fdl.dropbox.com%2Fu%2F334064%2Fcloudfrontproxy.png)
 
 ## Usage
 
