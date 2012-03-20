@@ -1,7 +1,9 @@
 require 'open-uri'
 
+set :views, File.dirname(__FILE__)
+
 get '/' do
-  markdown :index
+  markdown :README
 end
 
 get '/:url' do
